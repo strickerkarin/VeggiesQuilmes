@@ -1,0 +1,55 @@
+.header__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.header__logo {
+  width: 150px;
+  height: 200px;
+  background-image: url("../../img/logoVeggies.png");
+  background-size: cover;
+}
+
+.header__title {
+  background-color: var(--secondary-color);
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-size: var(--heading3);
+  margin: 10px 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 3px 0;
+}
+
+.header__title > span {
+  color: var(--tertiary-color);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header__bottomBox {
+  display: flex;
+  color: var(--secondary-color);
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.header__bottomBox > div > h2 {
+  text-transform: capitalize;
+  font-size: var(--heading2);
+}
+
+.header__aboutUs {
+  text-transform: uppercase;
+  font-size: var(--heading2);
+  font-weight: bold;
+  transition: all 0.4s;
+}
+
+.header__aboutUs:hover {
+  color: var(--primary-color);
+  cursor: pointer;
+}

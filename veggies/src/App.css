@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700;900&display=swap");
+
+:root {
+  --primary-color: #17a016;
+  --secondary-color: #35363a;
+  --tertiary-color: #939294;
+  --quaternary-color: #ffffff;
+  --heading1: 30px;
+  --heading2: 25px;
+  --heading3: 20px;
+  --heading4: 14px;
+  --button1: 14px;
+  --button2: 16px;
+  --text1: 14px;
+  --text2: 12px;
+  --text3: 10px;
+  --font-bold: 700;
+  --font-medium: 500;
+  --font-regular: 400;
+}
+
+.App {
+  display: flex;  
+  justify-content: center;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.5);
+  background-image: url("./img/fondoHojasGrises2.png");
+  
+}
+
+
