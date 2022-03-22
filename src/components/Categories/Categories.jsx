@@ -1,19 +1,7 @@
 import Styles from "./Styles.module.css";
-import Category from "./Category/Category";
 
-export default function Categories() {
-  const categories = [
-    <Category
-      name="Hamburguesas"
-      url="../../../div/Hamburguesas.png"
-    ></Category>,
-    <Category name="Empanadas" url="../../../div/Empanadas.png"></Category>,
-    <Category
-      name="Milasesas de Soja"
-      url="../../../div/MilanesasSoja.png"
-    ></Category>,
-    <Category name="Panificados" url="../../../div/Panificados.png"></Category>,
-  ];
+
+export default function Categories() {  
 
   return (
     <div className={Styles.Categories__container}>

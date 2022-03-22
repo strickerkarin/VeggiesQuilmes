@@ -1,13 +1,11 @@
 import Styles from "./Styles.module.css";
-import { useState } from "react";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import MainImage from "../MainImage/MainImage";
 import Navigation from "../Navigation/Navigation";
 import Categories from "../Categories/Categories";
 
-export default function Layout() {
-  const [showBurger, setShowBurger] = useState(false);
+export default function Layout() {  
 
   return (
     <div className={Styles.layout__delimiter}>
@@ -27,7 +25,7 @@ export default function Layout() {
 
       </main>
       <div className={Styles.layout__footer}>
-        <Footer showBurger={showBurger} />
+        <Footer />
       </div>
     </div>
   );
