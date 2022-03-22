@@ -4,6 +4,7 @@ import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import MainImage from "../MainImage/MainImage";
 import Navigation from "../Navigation/Navigation";
+import Categories from "../Categories/Categories";
 
 export default function Layout() {
   const [showBurger, setShowBurger] = useState(false);
@@ -16,10 +17,15 @@ export default function Layout() {
       <div className={Styles.layout__navigation}>
         <Navigation />
       </div>
+      <main>
       <div className={Styles.layout__mainImage}>
         <MainImage />
       </div>      
-      <main></main>
+      <div className={Styles.layout__categories}>        
+        <Categories />
+      </div>
+
+      </main>
       <div className={Styles.layout__footer}>
         <Footer showBurger={showBurger} />
       </div>

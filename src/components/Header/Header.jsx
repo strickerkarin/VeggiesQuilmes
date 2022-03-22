@@ -13,7 +13,7 @@ export default function Header() {
         <div className={Styles.header__aboutUs}>Acerca de nosotros</div>
       </div>
       <h1 className={Styles.header__title}>
-        "Haz de tu alimentación tu mejor medicina"  <span> Hipócrates</span>
+        <span>Veggies Quilmes</span>,&nbsp; queremos ser parte en tu mesa  
       </h1>
     </header>
   );

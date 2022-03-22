@@ -1,0 +1,86 @@
+.Categories__container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 15px 0;
+}
+
+.Categories__categorieBox {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.categories__imagen1 {
+    width: 330px;
+    height: 330px;
+    background-image: url("../../img/Hamburguesas.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+
+.categories__imagen2 {
+    width: 330px;
+    height: 330px;
+    background-image: url("../../img/Empanadas.png");
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s;
+}
+
+.categories__imagen3 {
+    width: 330px;
+    height: 330px;
+    background-image: url("../../img/MilanesasSoja.png");
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s;
+}
+
+.categories__imagen4 {
+    width: 330px;
+    height: 330px;
+    background-image: url("../../img/Panificados.png");
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s;
+}
+
+.categories__button {
+    background-color: var(--primary-color);
+    color: var(--quaternary-color);
+    text-transform: uppercase;
+    width: 175px;
+    text-align: center;
+    font-size: var(--heading4);
+    padding: 15px 20px;
+    border-radius: 50px;      
+    transition: all 0.4s; 
+}
+
+.categories__button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.categories__button:active {
+    transform: scale(0.9);
+}

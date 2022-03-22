@@ -1,0 +1,13 @@
+.category__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.category_img {
+    width: 150px;
+    height: 100%;
+    object-fit: cover;
+}
