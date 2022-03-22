@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
+
 }
 
 .header__logo {
@@ -25,7 +26,7 @@
 }
 
 .header__title > span {
-  color: var(--tertiary-color);
+  color: var(--primary-color);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 

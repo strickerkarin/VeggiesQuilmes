@@ -1,18 +1,19 @@
-nav {
+.navigation__container {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;  
+
 }
 
-nav > ul {
+.navigation__container > ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 50%;
 }
 
-nav > ul > li {
+.navigation__container > ul > li {
     list-style: none;
     font-size: var(--heading3);
     text-transform: uppercase;
@@ -20,7 +21,7 @@ nav > ul > li {
     transition: all 0.4s;
 }
 
-nav > ul > li:hover {
+.navigation__container > ul > li:hover {
     cursor: pointer;
     color: var(--primary-color)
 }

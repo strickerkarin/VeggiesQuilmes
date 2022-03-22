@@ -16,21 +16,18 @@
 }
 
 .categories__imagen1 {
-    width: 330px;
-    height: 330px;
+    width: 20vw;
+    height: 20vw;
     background-image: url("../../img/Hamburguesas.png");
     background-size: cover;
     display: flex;
     justify-content: center;
-    align-items: center;
-   
+    align-items: center;   
 }
 
-
-
 .categories__imagen2 {
-    width: 330px;
-    height: 330px;
+    width: 20vw;
+    height: 20vw;
     background-image: url("../../img/Empanadas.png");
     background-size: cover;
     position: relative;
@@ -41,8 +38,8 @@
 }
 
 .categories__imagen3 {
-    width: 330px;
-    height: 330px;
+    width: 20vw;
+    height: 20vw;
     background-image: url("../../img/MilanesasSoja.png");
     background-size: cover;
     position: relative;
@@ -53,8 +50,8 @@
 }
 
 .categories__imagen4 {
-    width: 330px;
-    height: 330px;
+    width: 20vw;
+    height: 20vw;
     background-image: url("../../img/Panificados.png");
     background-size: cover;
     position: relative;
@@ -68,7 +65,7 @@
     background-color: var(--primary-color);
     color: var(--quaternary-color);
     text-transform: uppercase;
-    width: 175px;
+    width: 10vw;
     text-align: center;
     font-size: var(--heading4);
     padding: 15px 20px;
