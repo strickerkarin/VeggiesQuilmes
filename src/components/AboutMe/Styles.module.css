@@ -1,0 +1,29 @@
+.aboutMe__container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.aboutMe__container > h2 {
+    text-transform: uppercase;
+    color: var(--secondary-color);
+    padding-bottom: 10px;
+}
+
+.aboutMe__photo {
+    background-image: url("../../img/ImagenCarla_edited7.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    height: 150px;
+    margin:30px 0;
+    width: 150px;
+}
+
+.aboutMe__description {
+    padding: 5px 20px;
+    font-size: var(--heading3);
+    text-align: center;
+    color: var(--tertiary-color);
+}

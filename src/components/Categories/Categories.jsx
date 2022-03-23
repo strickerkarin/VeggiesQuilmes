@@ -1,4 +1,5 @@
 import Styles from "./Styles.module.css";
+import Button from "../Button/Button";
 
 
 export default function Categories() {  
@@ -6,16 +7,16 @@ export default function Categories() {
   return (
     <div className={Styles.Categories__container}>
       <div className={Styles.categories__imagen1}>
-        <div className={Styles.categories__button}>Hamburguesas</div>
+        <Button>Hamburguesas</Button>
       </div>
       <div className={Styles.categories__imagen2}>
-        <div className={Styles.categories__button}>Empanadas</div>
+        <Button>Empanadas</Button>
       </div>
       <div className={Styles.categories__imagen3}>
-        <div className={Styles.categories__button}>Milanesas</div>
+        <Button>Milanesas</Button>
       </div>
       <div className={Styles.categories__imagen4}>
-        <div className={Styles.categories__button}>Panificados</div>
+        <Button>Panificados</Button>
       </div>
     </div>
   );

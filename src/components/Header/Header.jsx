@@ -10,7 +10,7 @@ export default function Header() {
           <h2>y naturales</h2>
         </div>
         <div className={Styles.header__logo}></div>
-        <div className={Styles.header__aboutUs}>Acerca de nosotros</div>
+        <div className={Styles.header__aboutMe}>Acerca de mí</div>
       </div>
       <h1 className={Styles.header__title}>
         ¡Queremos ser parte de tu mesa!

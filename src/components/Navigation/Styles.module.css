@@ -1,27 +1,32 @@
-.navigation__container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;  
+@font-face {
+  font-family: "Avenir";
+  src: url("../../fonts/AVENIRNEXTLTPRO-CN.OTF");
+}
 
+.navigation__container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 .navigation__container > ul {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
 }
 
 .navigation__container > ul > li {
-    list-style: none;
-    font-size: var(--heading3);
-    text-transform: uppercase;
-    font-weight: bold;
-    transition: all 0.4s;
+  font-family: "Avenir";
+  font-size: var(--heading2);
+  font-weight: bold;
+  list-style: none;
+  text-transform: uppercase;
+  transition: all 0.4s;
 }
 
 .navigation__container > ul > li:hover {
-    cursor: pointer;
-    color: var(--primary-color)
+  color: var(--primary-color);
+  cursor: pointer;
 }
