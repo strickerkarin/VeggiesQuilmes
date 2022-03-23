@@ -42,6 +42,9 @@
 
 .layout__articles {
   width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .layout__articles > p {

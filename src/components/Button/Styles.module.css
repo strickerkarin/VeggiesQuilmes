@@ -4,12 +4,16 @@
   color: var(--quaternary-color);
   font-size: var(--heading4);
   margin: 20px 0;
+  min-width: 9vw;
   padding: 15px 20px;
   text-align: center;
   text-transform: uppercase;
   transition: all 0.4s;
   width: 11vw;
-  min-width: 9vw;
+}
+
+.button__container > p {
+    color: var(--quaternary-color);    
 }
 
 .button__container:hover {

@@ -5,6 +5,7 @@ import MainImage from "../MainImage/MainImage";
 import Navigation from "../Navigation/Navigation";
 import Categories from "../Categories/Categories";
 import AboutMe from "../AboutMe/AboutMe";
+import Recipes from "../Recipes/Recipes";
 
 export default function Layout() {
   return (
@@ -25,6 +26,7 @@ export default function Layout() {
         <div className={Styles.layout__articlesAboutMe_Box}>
           <div className={Styles.layout__articles}>
             <p>recetas destacadas</p>
+            <Recipes />
             </div>
           <div className={Styles.layout__aboutMe}>
             <AboutMe />
