@@ -27,7 +27,7 @@ export default function Layout() {
           <div className={Styles.layout__articles}>
             <p>recetas destacadas</p>
             <Recipes />
-            </div>
+          </div>
           <div className={Styles.layout__aboutMe}>
             <AboutMe />
           </div>

@@ -43,6 +43,10 @@
   text-transform: capitalize;
 }
 
+.header__marquee {
+  display: none;
+}
+
 .header__aboutMe {
   font-size: var(--heading3);
   font-weight: bold;
@@ -54,4 +58,71 @@
 .header__aboutMe:hover {
   color: var(--primary-color);
   cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .header__container {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .header__logo {
+    height: 280px;
+    width: 210px;
+  }
+
+  .header__title {
+    font-size: var(--heading2);    
+  }
+
+  .header__aboutMe {
+    display: none;
+  }
+
+  .header__bottomBox {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .header__bottomBox > div > h2 {
+    display: none;
+  }
+
+  .header__marquee {
+    font-size: 30px;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: white;
+  }
+
+  .header__innerMarquee {
+    display: block;
+    transform: translatex(0);
+    animation: marquesina 12s infinite normal linear 1s;
+  }
+
+  @keyframes marquesina {
+    0% {
+      transform: translatex(100%);
+    }
+    100% {
+      transform: translatex(-80%);
+    }
+  }  
+}
+
+@media screen and (max-width: 414px) {
+  @keyframes marquesina {
+    0% {
+      transform: translatex(90%);
+    }
+    100% {
+      transform: translatex(-70%);
+    }
+  }
+
+  .header__title {
+    font-size: var(--heading3);    
+  }
 }

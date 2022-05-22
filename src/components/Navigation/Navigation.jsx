@@ -9,6 +9,7 @@ export default function Navigation() {
             <li>tips</li>
             <li>reseñas</li>
             <li>contacto</li>
+            <li className={Styles.navigation__aboutMe}>Acerca de mí</li>
         </ul>
    </nav>
   );
