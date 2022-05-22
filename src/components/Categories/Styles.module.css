@@ -64,7 +64,7 @@
   
   .categories__imagen1, .categories__imagen2, .categories__imagen3, .categories__imagen4 {
     height: 90.25vw;
-    width: 90.25vw;
+    width: 100%;
     margin: 1vw 0;
   }
 }

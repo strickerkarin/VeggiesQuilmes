@@ -88,19 +88,19 @@
     display: none;
   }
 
-  .header__marquee {
-    font-size: 30px;
+   .header__marquee {
+    font-size: 20px;
     display: block;
-    overflow: hidden;
-    white-space: nowrap;
+    overflow: hidden; 
+    white-space: nowrap; 
     background-color: white;
   }
 
   .header__innerMarquee {
     display: block;
     transform: translatex(0);
-    animation: marquesina 12s infinite normal linear 1s;
-  }
+   animation: marquesina 12s infinite normal linear 1s;
+  } 
 
   @keyframes marquesina {
     0% {
@@ -113,14 +113,14 @@
 }
 
 @media screen and (max-width: 414px) {
-  @keyframes marquesina {
+   @keyframes marquesina {
     0% {
-      transform: translatex(90%);
+      transform: translatex(100%);
     }
     100% {
-      transform: translatex(-70%);
+      transform: translatex(-100%);
     }
-  }
+  } 
 
   .header__title {
     font-size: var(--heading3);    
